@@ -1,5 +1,5 @@
 # VuBo
-Generic Vue app that onboards new user:
+Vue app that onboards new user:
 - Personal details questionnaire
 - Card Selection. 
 
