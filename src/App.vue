@@ -1,36 +1,10 @@
 <template>
-  <component :is="currentView" />
+  <router-view></router-view>
 </template>
 
 <script>
-import PersonalDetails from './components/PersonalDetails.vue'
-import BankAccounts from './components/BankAccounts.vue'
-
-const routes = {
-  '/': PersonalDetails,
-  '/bank-accounts': BankAccounts
-}
-
 export default {
   name: 'App',
-  components: {
-    PersonalDetails
-  },
-  data() {
-    return {
-      currentPath: window.location.hash
-    }
-  },
-  computed: {
-    currentView() {
-      return routes[this.currentPath.slice(1) || '/'] || PersonalDetails
-    }
-  },
-  mounted() {
-    window.addEventListener('hashchange', () => {
-      this.currentPath = window.location.hash;
-    })
-  }
 }
 </script>
 
