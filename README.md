@@ -5,7 +5,7 @@ Vue app that onboards a new user:
 
 Can be used in any app by replacing the cards icons which are located in the root assets folder.
 
-Styling adjusted for mobile screen.
+Styling adjusted for a mobile screen.
 
 ![app](https://raw.githubusercontent.com/gshohat/vubo/master/assets/vubo.gif)
 
