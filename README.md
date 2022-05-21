@@ -1,5 +1,5 @@
 # VuBo
-Vue app that onboards new user:
+Vue app that onboards a new user:
 - Personal details questionnaire
 - Card Selection. 
 
