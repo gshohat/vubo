@@ -43,7 +43,6 @@
   </div>
 
   <h3>Great to meet you here</h3>
-  <h4>We love our Massachusetts. We're in San Diego, California by the way.</h4>
   <NavigationFooter @left-button-clicked.once="signOut" leftButtonText="Sign Out"
                     @right-button-clicked.once="nextPage" rightButtonText="Continue"></NavigationFooter>
 </template>
